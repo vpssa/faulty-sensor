@@ -3,13 +3,13 @@ import pandas as pd
 import json
 
 # uniform resource indentifier
-uri = "mongodb+srv://snshrivas:Snshrivas@cluster0.u46c4.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://vvvppvvvpp0:VvVvVvVv@cluster0.u46c4.mongodb.net/?retryWrites=true&w=majority"
 
 # Create a new client and connect to the server
 client = MongoClient(uri)
 
 # create database name and collection name
-DATABASE_NAME="pwskills"
+DATABASE_NAME="proj"
 COLLECTION_NAME="waferfault"
 
 # read the data as a dataframe
